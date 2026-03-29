@@ -17,7 +17,7 @@
 
     <nav class="topnav">
       <div class="topnav-inner">
-        <span class="topnav-name">{{ site.title }}</span>
+        <a href="{{ '/' | relative_url }}" class="topnav-name">{{ site.title }}</a>
         <ul class="topnav-links">
           {% for item in site.nav %}
           <li>
